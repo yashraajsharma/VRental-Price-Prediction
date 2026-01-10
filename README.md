@@ -44,27 +44,23 @@ The model predicts the rental price based on three critical variables:
    Place your trained model file in the project directory and ensure your script is pointing to it (e.g., joblib.load('model.pkl')).
 ### Key Features:
 
-## 🖥️ Usage Demo
-   Run the script in your terminal to start the interactive panel:
-   ```bash
-   python price_predictor.py
-
-
-    **Example Workflow**
-
-   ```bash
+## 🖥️ Usage Example
+   ```Plaintext
    --- INTERACTIVE PRICE PREDICTOR ---
    Please enter the features for the new VRENTAL listing:
-   Enter Location Score (e.g., 8.5 for Prime): 9.0
-   Enter Room Size (in sqft, e.g., 260): 280
+   Enter Location Score (e.g., 8.5 for Prime): 9.2
+   Enter Room Size (in sqft, e.g., 260): 300
    Enter Amenities Count (e.g., 4): 5
    
    ==================================================
    **ML Model Recommendation for Input:**
-     Location Score:  9.0
-     Room Size (sqft):280
+     Location Score:  9.2
+     Room Size (sqft):300
      Amenities Count: 5
    --------------------------------------------------
      Optimal Predicted Rental Price: **₹18,500**
    ==================================================
+        Optimal Predicted Rental Price: **₹18,500**
+      ==================================================
+
 
