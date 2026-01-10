@@ -42,7 +42,6 @@ The model predicts the rental price based on three critical variables:
 
 3. **Ensure the model is loaded:**
    Place your trained model file in the project directory and ensure your script is pointing to it (e.g., joblib.load('model.pkl')).
-### Key Features:
 
 ## 🖥️ Usage Example
    ```Plaintext
@@ -62,5 +61,6 @@ The model predicts the rental price based on three critical variables:
    ==================================================
         Optimal Predicted Rental Price: **₹18,500**
       ==================================================
+
 
 
