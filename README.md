@@ -35,3 +35,34 @@ The model predicts the rental price based on three critical variables:
    ```bash
    git clone [https://github.com/your-username/vrental-price-predictor.git](https://github.com/your-username/vrental-price-predictor.git)
    cd vrental-price-predictor
+
+2. **Install dependencies:**
+   ```bash
+   pip install pandas scikit-learn
+
+3. **Ensure the model is loaded:**
+   Place your trained model file in the project directory and ensure your script is pointing to it (e.g., joblib.load('model.pkl')).
+
+
+## 🖥️ Usage Demo
+   Run the script in your terminal to start the interactive panel:
+   ```bash
+   python price_predictor.py
+
+
+ **Example Workflow:**
+
+--- INTERACTIVE PRICE PREDICTOR ---
+Please enter the features for the new VRENTAL listing:
+Enter Location Score (e.g., 8.5 for Prime): 9.0
+Enter Room Size (in sqft, e.g., 260): 280
+Enter Amenities Count (e.g., 4): 5
+
+==================================================
+**ML Model Recommendation for Input:**
+  Location Score:  9.0
+  Room Size (sqft):280
+  Amenities Count: 5
+--------------------------------------------------
+  Optimal Predicted Rental Price: **₹18,500**
+==================================================
